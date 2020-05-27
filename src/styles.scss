@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import './app/custom-tailwind/custom-components.css';
+
+@import 'tailwindcss/utilities';
+@import './app/custom-tailwind/custom-utilities.css';
+
+.test {
+    .inner-test {
+        margin: 0;
+        padding: 0;
+    }
+}
